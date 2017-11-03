@@ -49,23 +49,7 @@ console.log(secNum);
 
 
 
-// Computer generates random number/letter between 1-26 or a-z
 
-	
-
-// Prompt User to guess a random letter between a-z
-
-
-
-
-
-// Check to see if answer is correct
-
-// If guess is wrong, display the guess on the screen up to 9 guesses
-
-// If guess is correct before the 9 guesses are up add a point to the win column, if not add a point to the loss column
-
-// Prompt message telling User they won
 
 
 
