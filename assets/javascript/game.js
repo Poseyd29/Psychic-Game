@@ -39,7 +39,7 @@ console.log(secNum);
 
 		}
 
-		if (guessesLeft < 1) {
+		else if (guessesLeft < 1) {
 
 			losses++;
 
