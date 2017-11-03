@@ -1,0 +1,47 @@
+
+Setup, Init
+
+▪Magic numbers: MaxGuesses
+▪GuessWrong=Wins=Losses=0;
+▪Display “print-once” elements
+
+-----------------------------------------------------------------------------------------------------------------------
+
+
+GAMEPLAY
+
+ Computer Generates secret letter
+
+ 	 var letters = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
+
+	var secretNum = Math.floor(Letter.length * Math.random();
+
+	var secret = Letter[secretNum];
+
+	Get Guess.
+
+		use onkeyup to get Userguess
+
+		do error checking on input
+
+	Set right or wrong flag.
+		var Flag=(Guess==Secret);
+
+
+	 Update the Guess count. If guessleft = 1 go to wrap up
+
+	If right, update underlined display, do congrats message
+	▪If wrong, update incorrect letters display	
+
+	
+-----------------------------------------------------------------------------------------------------------------------	
+
+
+▪
+
+
+
+Wrap-up
+▪Clear letter display
+▪Reset guesses used, remaining
+▪Update Wins and Losses
