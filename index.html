@@ -21,7 +21,37 @@
 <section><p id="guesses">Your Guesses So Far:</p></section>
 
 
-<script src="assets/javascript/game.js"></script>
+<script>
+	
+	//alert("You have 9 guesses to guess what letter I am thinking of! Good luck...");
+  //I just commented this out because I hate popups haha
+
+  var letters = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
+
+  
+  // #1 take the [] off of this math function, [] declares an array, so you are making an array of a random number
+  var secLetter = Math.floor(Math.random() * letters.length);
+  //The math function is correct, but right now it is just pushing out a random number that is between 1-26. 
+
+  //look in the console, you should see a random number every time you refresh
+  console.log(secLetter);
+
+  // #2 You need to use that number to choose a value in the array. So think about how you find a specific value in and array, and remember that your number is stored in a variable. You can name a new variable that is equal to the random letter you pick out of the array. 
+
+  
+  var guessCount = 0;	
+
+  // #3 next we need to create a function that listens for the user to press a letter on the keyboard. Look a the rock, paper, scissors game that we made in class
+
+  // #4 once we have that, we have to compare the value from that function ^^^ to the randoms letter we selected in #2, so:
+   if(whatEverTheUserGuess === theRandomLeterYouSelected) {
+    //add to the score
+    //prompt that they have won
+  }
+
+
+
+</script>
 
 </body>
 </html>
