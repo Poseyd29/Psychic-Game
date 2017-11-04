@@ -30,7 +30,7 @@ console.log(secNum);
 
 		if (userGuess === compGuess) {
 
-			alert("you win!");
+			
 			wins++;
 			guessesLeft = maxGuesses;
 			guesses = "";
